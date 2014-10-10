@@ -1,0 +1,14 @@
+{
+	"payment_id" : Payment ID,
+	"status" : "Payment status",
+	"status_detail" : "Payment status detail",
+	"amount" : "10",
+	"reason": "Title of what you are paying for",
+	"currency_id" : "USD",
+	"installments" : 3,
+	"payment_method_id" : "visa",
+	"card_token_id" : "card_token",
+	"payer_email" : "paymentcreation@mail.com",
+	"external_reference" : "1234",
+	"statement_descriptor" : "MERCADOPAGO"
+}
