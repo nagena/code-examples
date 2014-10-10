@@ -7,7 +7,6 @@ import mercadopago.MP;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
-// Extend HttpServlet class
 public class ReceiveFeed extends HttpServlet {
  
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
