@@ -1,0 +1,48 @@
+{
+	"paging": {
+		"total": 70,
+		"limit": 10,
+		"offset": 0
+	},
+	"results": [
+	   	{
+			"id": id-del-movimiento,
+			"user_id": id-del-usuario,
+			"type": "income",
+			"detail": "payment",
+			"amount": 425,
+			"currency_id": "Tipo de moneda",
+			"reference_id": id-referencia-que-está-asociado,
+			"site_id": "Identificador de país",
+			"client_id": 0,
+			"financial_entity": "credit_card",
+			"status": "unavailable",
+			"label": [],
+			"date_created": "2013-09-23T12:01:30.000-04:00",
+			"date_released": "2013-09-25T12:01:30.000-04:00",
+			"balanced_amount": 425,
+			"original_move_id": null
+		},
+		{
+			"id":  id-del-movimiento,
+			"user_id": id-del-usuario,
+			"type": "expense",
+			"detail": "payment",
+			"amount": -125.8,
+			"currency_id": "Tipo de moneda",
+			"reference_id": id-referencia-que-está-asociado,
+			"site_id": "Identificador de país",
+			"client_id": 0,
+			"financial_entity": "master",
+			"status": "available",
+			"label": [],
+			"date_created": "2013-09-23T12:01:30.000-04:00",
+			"date_released": "2013-09-25T12:01:30.000-04:00",
+			"balanced_amount": 0,
+			"original_move_id": null
+		},
+		{
+			...
+		}
+	]
+}
