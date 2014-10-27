@@ -1,6 +1,5 @@
 <!--#include file="lib\mercadopago.asp"-->
-<!--#include file="lib\JSON_2.0.4.asp"-->
-<!--#include file="lib\json2.asp"-->
+
 <%
 	Dim mp
 	

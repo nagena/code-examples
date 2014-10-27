@@ -1,5 +1,6 @@
 var 	http = require("http"),
-	url = require("url");
+	url = require("url"),
+	MP = require("mercadopago");
 
 http.createServer(function (req, res) {
 	res.writeHead(200);

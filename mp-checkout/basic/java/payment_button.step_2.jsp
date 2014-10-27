@@ -1,19 +1,18 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <%@page import="com.mercadopago.MP"%>
 <%@page import="org.codehaus.jettison.json.JSONObject"%>
 
 <%
-	MP mp = new MP ("CLIENT_ID", "CLIENT_SECRET");
+	MP mp = new MP("CLIENT_ID", "CLIENT_SECRET");
 
 	String preferenceData = "{'items':"+
-			"[{"+
-				"'title':'Multicolor kite',"+
-				"'quantity':1,"+
-				"'currency_id':'USD',"+ // Available currencies at: https://api.mercadolibre.com/currencies
-				"'unit_price':10.0"+
-			"}]"+
-		"}";
+		"[{"+
+			"'title':'Multicolor kite',"+
+			"'quantity':1,"+
+			"'currency_id':'USD',"+ // Available currencies at: https://api.mercadolibre.com/currencies
+			"'unit_price':10.0"+
+		"}]"+
+	"}";
 
 	JSONObject preference = mp.createPreference(preferenceData);
 %>

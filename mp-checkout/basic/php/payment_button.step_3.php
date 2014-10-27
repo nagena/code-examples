@@ -10,11 +10,11 @@ $preference_data = array(
 			"quantity" => 1,
 			"currency_id" => "USD", // Available currencies at: https://api.mercadolibre.com/currencies
 			"unit_price" => 10.00
-		 )
+		)
 	)
 );
 
-$preference = $mp->create_preference ($preference_data);
+$preference = $mp->create_preference($preference_data);
 ?>
 
 <!DOCTYPE html>

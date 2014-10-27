@@ -4,7 +4,7 @@ curl -X POST \
 	https://api.mercadolibre.com/checkout/custom/create_payment?access_token=tu_access_token \
 	-d '{
 		"amount": 10,
-		"reason": "Título de lo que están pagando",
+		"reason": "Title of what you are paying for",
 		"currency_id": "ARS",
 		"installments": 3,
 		"payment_method_id": "visa",
