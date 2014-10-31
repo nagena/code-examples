@@ -5,7 +5,7 @@ curl -X POST \
 	-d '{
 		"amount": 10,
 		"reason": "Title of what you are paying for",
-		"currency_id": "ARS",
+		"currency_id": "CURRENCY_ID",
 		"installments": 3,
 		"payment_method_id": "visa",
 		"card_token_id": "card_token",

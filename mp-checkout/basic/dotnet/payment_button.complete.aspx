@@ -9,7 +9,7 @@
 		"[{"+
 			"'title':'Multicolor kite',"+
 			"'quantity':1,"+
-			"'currency_id':'USD',"+ <%-- Available currencies at: https://api.mercadolibre.com/currencies --%>
+			"'currency_id':'CURRENCY_ID',"+ <%-- Available currencies at: https://api.mercadolibre.com/currencies --%>
 			"'unit_price':10.0"+
 		"}]"+
 	"}";

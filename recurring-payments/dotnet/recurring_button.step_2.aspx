@@ -15,7 +15,7 @@
 			"'frequency': 1,"+
 			"'frequency_type': 'months',"+
 			"'transaction_amount': 60,"+
-			"'currency_id': 'BRL',"+
+			"'currency_id': 'CURRENCY_ID',"+
 			"'start_date': '2014-12-10T14:58:11.778-03:00',"+
 			"'end_date': '2015-06-10T14:58:11.778-03:00'"+
 		"}"+
