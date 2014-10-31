@@ -3,4 +3,8 @@ ACCESS_TOKEN=`curl -s -X POST -H 'content-type: application/x-www-form-urlencode
 
 curl -X GET \
 -H "accept: application/json" \
-"https://api.mercadolibre.com/collections/search?access_token=$ACCESS_TOKEN&status=approved&offset=0&limit=10"
+"https://api.mercadolibre.com/collections/search" \
+-d "access_token=$ACCESS_TOKEN" \
+-d "status=approved" \
+-d "offset=0" \
+-d "limit=10"
