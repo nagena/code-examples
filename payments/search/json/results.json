@@ -1,0 +1,48 @@
+{
+	"paging": {
+		"total": 70,
+		"limit": 10,
+		"offset": 0
+	},
+	"results": [
+		{
+			"collection":  {
+				"id": PAYMENT_ID,
+				"site_id": "SITE_ID",
+				"date_created": "2011-09-20T00:00:00.000-04:00",
+				"date_approved": null,
+				"last_modified": "2011-10-19T16:44:34.000-04:00",
+				"money_release_date": "2011-10-04T17:32:49.000-04:00",
+				"operation_type": "regular_payment",
+				"collector_id": USER_ID,
+				"payer": {
+					"id": PAYER_ID,
+					"nickname": "Payer Nickname",
+					"first_name": "Payer First name",
+					"last_name": "Payer Last name",
+					"phone": {
+						"area_code": "0123",
+						"number": "4567890",
+						"extension": null
+					},
+					"email": "payer@email.com"
+				},
+				"external_reference": "Seller reference",
+				"reason": "Payment description",
+				"transaction_amount": 2,
+				"total_paid_amount": 2,
+				"currency_id": "CURRENCY_ID",
+				"shipping_cost": 0,
+				"status": "cancelled",
+				"status_detail": "expired",
+				"released": "yes",
+				"payment_type": "ticket",
+			}
+		},
+		{
+			"collection":  {
+				...
+			}
+		}
+	]
+}

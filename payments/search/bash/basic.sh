@@ -3,4 +3,4 @@ ACCESS_TOKEN=`curl -s -X POST -H 'content-type: application/x-www-form-urlencode
 
 curl -X GET \
 -H "accept: application/json" \
-"https://api.mercadolibre.com/mercadopago_account/movements/search?access_token=$ACCESS_TOKEN&type=income&offset=0&limit=10"
+"https://api.mercadolibre.com/collections/search?access_token=$ACCESS_TOKEN&status=approved&offset=0&limit=10"
