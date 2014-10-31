@@ -1,4 +1,4 @@
-curl -X GET \
+curl -X GET -G \
 -H "accept: application/json" \
 "https://api.mercadolibre.com/collections/search"
 -d "access_token=$ACCESS_TOKEN" \
