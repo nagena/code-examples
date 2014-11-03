@@ -7,7 +7,7 @@
 	
 	String preapprovalData = "...";
 
-	Hashtable preapproval = mp.createPreference(preapprovalData);    
+	Hashtable preapproval = mp.createPreapprovalPayment(preapprovalData);    
 %>
 	
 <!DOCTYPE html>
