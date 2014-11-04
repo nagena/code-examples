@@ -1,0 +1,12 @@
+{
+	"deductions_by_marketplace": [
+		{
+			"marketplace": "NONE",
+			"collector": {
+				"financing_rate": 80
+			},
+			"start_date": "2013-04-14T23:00:01.000-04:00",
+			"end_date": "2013-05-28T22:59:59.000-04:00"
+		}
+	]
+}

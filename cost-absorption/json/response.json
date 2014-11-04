@@ -1,0 +1,18 @@
+{
+	"id": 12345678945632100,
+	"deductions_by_payment_method": [
+		{
+			"collector": {
+				"financing_rate": 100
+			},
+			"start_date": "2013-02-17T23:00:01.000-04:00",
+			"end_date": "2013-04-28T22:59:59.000-04:00",
+			"installments": [
+				3,
+				6
+			],
+			"payment_method_id": "amex"
+		}
+	],
+	...
+}

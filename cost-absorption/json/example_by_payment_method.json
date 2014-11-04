@@ -1,0 +1,24 @@
+{
+	"deductions_by_payment_method": [
+		{
+			"collector": {
+				"financing_rate": 75
+			},
+			"installments": [
+				3,
+				9
+			],
+			"payment_method_id": "amex"
+		},
+		{
+			"collector": {
+				"financing_rate": 50
+			},
+			"installments": [
+				3,
+				6
+			],
+			"payment_method_id": "visa"
+		}
+	]
+}

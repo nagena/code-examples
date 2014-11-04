@@ -1,0 +1,13 @@
+{
+	"deductions_by_installment": [
+		{
+			"marketplace": "NONE",
+			"collector": {
+				"financing_rate": 100
+			},
+			"installments": [
+				3, 6, 9
+			]
+		}
+	]
+}
