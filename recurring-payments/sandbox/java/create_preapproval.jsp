@@ -7,7 +7,7 @@
 
 	String preapprovalData = "...";
 
-	JSONObject preapproval = mp.createPreference(preapprovalData);
+	JSONObject preapproval = mp.createPreapprovalPayment(preapprovalData);
 
 	String sandboxInitPoint = preapproval.getJSONObject("response").getString("sandbox_init_point");
 %>
